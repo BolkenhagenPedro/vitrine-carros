@@ -189,6 +189,21 @@ div#m5 {
     background-image: url(../imagens/bmw/bmwm5.jpg);
 }
 
+div#veyron {
+    background-image: url(../imagens/bugatti/bugattiveyron.jpg);
+    background-position: center;
+}
+
+div#chiron {
+    background-image: url(../imagens/bugatti/bugattichiron.jpg);
+    background-position: center;
+}
+
+div#bolide {
+    background-image: url(../imagens/bugatti/bugattibolide.jpg);
+    background-position: center;
+}
+
 footer {
     background-color: rgba(187, 2, 2);
     padding: 10px;
