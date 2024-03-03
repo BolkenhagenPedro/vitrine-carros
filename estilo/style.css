@@ -151,6 +151,7 @@ div#macan {
 
 div#huracan {
     background-image: url(../imagens/lamborghini/lamborghinihuracan.jpg);
+    background-position: center;
 }
 
 div#veneno {
