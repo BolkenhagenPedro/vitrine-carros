@@ -92,6 +92,13 @@ main strong {
     font-weight: bold;
 }
 
+main h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+    color: var(--cor1);
+}
+
 main h2 {
     color: rgb(177, 9, 9);
     font-weight: bold;
@@ -139,6 +146,20 @@ div#p913 {
 
 div#macan {
     background-image: url(../imagens/porsche/porschemacan.jpg);
+}
+
+div#huracan {
+    background-image: url(../imagens/lamborghini/lamborghinihuracan.jpg);
+}
+
+div#veneno {
+    background-image: url(../imagens/lamborghini/lamborghiniveneno.jpg);
+    background-position: center left;
+}
+
+div#diablo {
+    background-image: url(../imagens/lamborghini/diablo.jpg);
+    background-position: center right;
 }
 
 footer {
