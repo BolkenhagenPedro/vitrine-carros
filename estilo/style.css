@@ -177,6 +177,18 @@ div#phantom {
     background-position: center;
 }
 
+div#m3 {
+    background-image: url(../imagens/bmw/bmwm3.jpg);
+}
+
+div#i320 {
+    background-image: url(../imagens/bmw/bmw320i.jpg);
+}
+
+div#m5 {
+    background-image: url(../imagens/bmw/bmwm5.jpg);
+}
+
 footer {
     background-color: rgba(187, 2, 2);
     padding: 10px;
