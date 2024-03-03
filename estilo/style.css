@@ -162,6 +162,21 @@ div#diablo {
     background-position: center right;
 }
 
+div#spectre {
+    background-image: url(../imagens/rollsroyce/spectre.jpg);
+    background-position: center;
+}
+
+div#ghost {
+    background-image: url(../imagens/rollsroyce/ghost.jpg);
+    background-position: center;
+}
+
+div#phantom {
+    background-image: url(../imagens/rollsroyce/rollsroycephantom.jpg);
+    background-position: center;
+}
+
 footer {
     background-color: rgba(187, 2, 2);
     padding: 10px;
