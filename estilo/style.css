@@ -27,7 +27,6 @@ body {
 header {
     background-color: rgb(140, 0, 0);
     text-align: center;
-    min-height: 150px;
     padding-top: 40px;
     color: white;
 }
@@ -75,6 +74,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     max-width: 800px;
+    /* min-height: 100vh; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -96,6 +96,49 @@ main h2 {
     color: rgb(177, 9, 9);
     font-weight: bold;
     background-image: linear-gradient(to left, rgb(255, 0, 0), transparent);
+}
+
+main h3 {
+    text-align: center;
+    padding: 15px;
+    color: var(--cor6);
+}
+
+aside {
+    padding: 10px;
+}
+
+aside > ul {
+    list-style-position: inside;
+}
+
+div.img {
+    padding-top: 20%;
+    padding-bottom: 30%;
+    padding-left: 30px;
+
+    border-radius: 15px;    
+
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    transition-duration: 0.7s;
+    background-size: cover;
+}
+
+div.img:hover {
+    box-shadow: inset 8px 8px 15px 0px rgba(255, 0, 0, 0.466);
+}
+
+div#carrera {
+    background-image: url(../imagens/porsche/porsche911carrera.jpg);
+}
+
+div#p913 {
+    background-image: url(../imagens/porsche/porsche913.jpg);
+}
+
+div#macan {
+    background-image: url(../imagens/porsche/porschemacan.jpg);
 }
 
 footer {
